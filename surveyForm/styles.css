@@ -1,0 +1,76 @@
+body {
+    background-color: hsl(0, 0%, 83%);
+    background-image: url("bg-image.jpg");
+    height: 100vh;
+    font-size: 20px;
+
+}
+
+h1,
+p {
+    text-align: center;
+}
+
+h1 {
+    font-size: 25px;
+    padding-top: 20px;
+}
+
+p {
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#form-div {
+    background: hsl(34, 57%, 70%);
+    margin: 0 auto;
+    width: 50%;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+
+fieldset {
+    border: none;
+    border-bottom: 2px solid hsl(0, 0%, 83%);
+    margin: 20px 0;
+    padding-bottom: 10px;
+}
+
+input {
+    height: 30px;
+
+}
+
+.fieldset-one input,
+select {
+    display: block;
+    width: 80%;
+
+}
+
+#comments {
+    display: block;
+    font-size: 18px;
+}
+
+#reset {
+    background: hsl(0, 0%, 83%);
+    font-size: 18px;
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    text-align: center;
+    height: 45px;
+}
+
+#submit {
+    background: hsl(120, 73%, 75%);
+    margin-left: 25%;
+    margin-bottom: 10px;
+    font-size: 18px;
+    text-align: center;
+    width: 50%;
+    height: 45px;
+    border-radius: 4px;
+}
