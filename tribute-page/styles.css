@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+    border-radius: 5px;
+    line-height: 1.5;
+}
+
+body {
+    background-color: hsl(52, 76%, 92%);
+    font-size: 20px;
+    font-family: Garamond, serif;
+
+}
+
+#main {
+    background-color: hsl(42, 66%, 82%);
+}
+
+#title {
+    padding-top: 2%;
+    font-size: 22px;
+}
+
+#title,
+#discription {
+    text-align: center;
+}
+
+#img-div {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    background-color: hsl(52, 76%, 92%);
+
+}
+
+
+#image {
+    width: 700px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+#img-caption {
+    width: 700px;
+    max-width: 100%;
+    padding: 5px auto;
+    text-align: center;
+    padding: 1.5% 0;
+}
+
+#tribute-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+
+.tribute-info {
+    background-color: hsl(52, 76%, 92%);
+    padding: 10px;
+    margin: 5px auto 10px;
+    max-width: 900px;
+}
+
+#tiger,
+#wins {
+    font-size: 22px;
+    text-align: center;
+}
+
+#tribute-link {
+    text-decoration: none;
+}
+
+#tribute-link:hover {
+    text-decoration: underline;
+    font-size: 1.3rem;
+}
