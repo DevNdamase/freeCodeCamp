@@ -1,0 +1,58 @@
+/* For a Horizontal Flex Container */
+
+.flex-contaner-x {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* For a Vertical Flex Container */
+
+.flex-contaner-y {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* General Styles */
+
+.centered-heading-text {
+    text-align: center;
+}
+
+.uppercased-text {
+    text-transform: uppercase;
+}
+.button {
+    text-transform: uppercase;
+    padding: 8px;
+    background-color: hwb(36 12% 3%);
+    border-radius: 5px;
+    border: none;
+    color: hwb(0 96% 4%);
+    font-weight: 600;
+    transition: transform 0.3s ease-in-out;
+}
+.button:hover {
+    transform: scale(1.2);
+}
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+main {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-style: italic;
+}
+h4 {
+    font-weight: 700;
+}
+p {
+    line-height: 1.5;
+}

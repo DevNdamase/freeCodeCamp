@@ -5,13 +5,22 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>product-landing-page</title>
+        <script
+        src="https://kit.fontawesome.com/0d4c75c8ed.js"crossorigin="anonymous">
+        </script>
+        <link rel="stylesheet" href="./product-page-styles/main.css">
+        <link rel="stylesheet" href="./product-page-styles/utility.css">
+        <!-- google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,700&display=swap" rel="stylesheet">
     </head>
     <body>
 
         <!-- Header Section -->
 
         <section class="header-container">
-            <header id="header">
+            <header id="header" class="flex-contaner-x">
                 <div class="header-img-container">
                     <img
                         id="header-img"
@@ -43,7 +52,7 @@
 
                 <!-- Call To Action Section -->
 
-                <section class="cta-section">
+                <section class="cta-section flex-contaner-y">
                     <h4>Be The First To Know</h4>
                     <p>
                         Get the latest product news, special offers and interesting
@@ -52,22 +61,20 @@
                     <form
                         id="form"
                         action="https://www.freecodecamp.com/email-submit"
-                        method="post"
-                    >
-                        <label for="email"></label>
+                        method="post">
+                    
                         <input
                             type="email"
                             id="email"
                             name="email"
-                            placeholder="Enter your email"
-                        />
-                        <input type="submit" id="submit" value="Get started" />
+                            placeholder="Enter your email"/>
+                        <input type="submit" id="submit" value="Get started" class="button"/>
                     </form>
                 </section>
 
                 <!-- Product Section -->
 
-                <section class="product-section" id="keychron-c1">
+                <section class="product-section flex-contaner-y" id="keychron-c1">
                     <h1>Keychron C1 Wired Mechanical Keyboard</h1>
 
                     <h4>A Tenkeyless Wired Mechanical Keyboard</h4>
@@ -86,10 +93,10 @@
                 <!-- Product Features Section -->
 
                 <section class="product-features-contaner" id="features">
-                    <h1 class="centered-heading-text">FEATURES</h1>
-                    <div class="product-features">
+                    <h1 class="centered-heading-text">Features</h1>
+                    <div class="product-features flex-contaner-x">
                         <div class="product-feature-text">
-                            <h4>TYPE-C WIRED</h4>
+                            <h4 class="uppercased-text">Type-C Wired</h4>
                             <p>
                                 With an easy and reliable USB Type-C connection, the
                                 C1 is best to fit home, office and light gaming use
@@ -102,9 +109,9 @@
                         </div>
                     </div>
 
-                    <div class="product-features">
+                    <div class="product-features flex-contaner-x">
                         <div class="product-feature-text">
-                            <h4>SUITABLE FOR ALL DEVICES</h4>
+                            <h4 class="uppercased-text">Suitable For All Devices</h4>
                             <p>
                                 Compatible for both macOS and Windows. Keychron is
                                 one of only a few in the market that comes with a
@@ -120,9 +127,9 @@
                             />
                         </div>
                     </div>
-                    <div class="product-features">
+                    <div class="product-features flex-contaner-x">
                         <div class="product-feature-text">
-                            <h4>Legends Never Fade Out</h4>
+                            <h4 class="uppercased-text">Legends Never Fade Out</h4>
                             <p>
                                 Engineered with double-shot keycap set on White and
                                 RGB Backlight versions allow backlight shine through
@@ -133,9 +140,9 @@
                             <img src="images/lnf-img.png" alt="no fading" />
                         </div>
                     </div>
-                    <div class="product-features">
+                    <div class="product-features flex-contaner-x">
                         <div class="product-feature-text">
-                            <h4>Mechanical Switch</h4>
+                            <h4 class="uppercased-text">Mechanical Switch</h4>
                             <p>
                                 Durable Gateron G Pro mechanical switch with a 50
                                 million keystroke lifespan to provide an unrivaled
@@ -146,9 +153,9 @@
                             <img src="images/switches.png" alt="switches" />
                         </div>
                     </div>
-                    <div class="product-features">
+                    <div class="product-features flex-contaner-x">
                         <div class="product-feature-text">
-                            <h4>18 TYPES OF RGB</h4>
+                            <h4 class="uppercased-text">18 Types of RGB</h4>
                             <p>
                                 Engineered with more than 15 types of RGB light and
                                 comes with different styles (flashing, breathing, or
@@ -164,8 +171,8 @@
 
                 <!-- Product Price Section -->
 
-                <section class="product-price-contaner">
-                    <div class="product-price-tile" id="pricing">
+                <section class="product-price-contaner flex-contaner-x">
+                    <div class="product-price-tile flex-contaner-y" id="pricing">
                         <h4>Non-Backlight: $49.00</h4>
                         <ul>
                             <li>Lorem ipsum elit.</li>
@@ -173,9 +180,9 @@
                             <li>Donsectetur adipisicing.</li>
                             <li>Est esse fuga.</li>
                         </ul>
-                        <button>Buy it now</button>
+                        <button class="button">Buy it now</button>
                     </div>
-                    <div class="product-price-tile">
+                    <div class="product-price-tile flex-contaner-y">
                         <h4>White Backlight: $55.00</h4>
                         <ul>
                             <li>Reiciendis necessitatibus.</li>
@@ -183,9 +190,9 @@
                             <li>Donsectetur adipisicing.</li>
                             <li>Provident, eum nihil.</li>
                         </ul>
-                        <button>Buy it now</button>
+                        <button class="button">Buy it now</button>
                     </div>
-                    <div class="product-price-tile">
+                    <div class="product-price-tile flex-contaner-y">
                         <h4>RGB Backlight: $65.00</h4>
                         <ul>
                             <li>Suscipit nesciunt.</li>
@@ -194,7 +201,7 @@
                             <li>Quibusdam pariatur.</li>
                         </ul>
 
-                        <button>Buy it now</button>
+                        <button class="button">Buy it now</button>
                     </div>
                 </section>
             
@@ -202,7 +209,7 @@
 
         <!-- Footer Section -->
 
-        <footer>
+        <footer class="flex-contaner-x">
             <div class="footer-content-box">
                 <h4 id="help-&-support">Help & Support</h4>
                 <ul>
