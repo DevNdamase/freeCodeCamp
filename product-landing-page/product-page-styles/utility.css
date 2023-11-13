@@ -49,10 +49,12 @@ main {
 
 h1 {
     font-style: italic;
+    font-size: 1.4rem;
 }
 h4 {
     font-weight: 700;
 }
 p {
     line-height: 1.5;
+    font-size: 1.1rem;
 }

@@ -1,0 +1,21 @@
+/*  Media Querries */
+
+@media screen and (max-width: 700px) {
+    #header {
+        justify-content: space-evenly;
+    }
+    #nav-bar ul {
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 900px) {
+    .product-features {
+        flex-direction: column;
+    }
+    .display-first {
+        order: unset;
+    }
+    .product-price-contaner {
+        flex-wrap: wrap;
+    }
+}
